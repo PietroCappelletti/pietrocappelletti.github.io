@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website | Pietro Cappelletti</title>
+        <link href = "css/style.css" rel = "stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href = "css/font" rel = "stylesheet">
+        <link rel = "icon" href="css/img/pw.png">
+    </head>
+    
+    <body>
+  
+    <div id = "header">
+        <div class = "title"></div>
+        <div>
+            <div class = "ball back"></div>
+            <div class = "ball"></div>
+            <div class = "ball back"></div>
+            <div class = "ball"></div>
+        </div>
+    </div>
+        <div class = "menupos"></div>
+        <div class = "menu">
+            <ul>
+                <li><a href = "#header" class = "homeul">Home</a></li><li>
+                <a href = "#works"  class = "worksul">Work</a></li><li>
+                <a href = "#contact"  class = "contactul">Contact</a></li><li>
+                <a href = "#project"  class = "projectul">Project</a></li>
+            </ul>
+        </div>
+    <div class = "about">
+        <ul class = "lenguage">
+            <li><a href = "indexita.html" >Italian</a></li><li>
+            <a class = "active">English</a></li>
+        </ul>
+        <div class = "video"><div class = "avatar"></div></div>
+        <h3>Pietro Cappelletti</h3>
+        <p class = "description">Hi, i'm a student, and my dream is enter into webDeveloper career. Now i'm studing at ITT Marconi, in Rovereto, and i try to make my passion my future job.</p>
+        <ul class = "link">
+            <li><a href = "" ><img src="css/img/icon/twitternormal.png"><br>Twitter</a></li><li>
+            <a href = ""><img src="css/img/icon/facebooknormal.png"><br>Facebook</a></li><li>
+            <a href = "https://www.instagram.com/cappellettipietro/"><img src="css/img/icon/instagramnormal.png"><br>Instagram</a></li>
+        </ul>
+    </div>
+        
+    <div id = "works" class = "works">
+        <h3>WORKS</h3>
+        <p class = "description">Hi, i'm a student, and my dream is enter into webDeveloper career. Now i'm studing at ITT Marconi, in Rovereto, and i try to make become my passion into my future job.</p>
+        <div class = "containerwork">
+            <div class = "work"><div class = "cost"><h1>Website</h1>10$</div></div>
+            <div class = "work"><div class = "cost"><h1>Logo</h1>3$</div></div>
+            <div class = "work"><div class = "cost"><h1>Design</h1>5$</div></div>
+            <div class = "work"><div class = "cost"><h1>SKIFO</h1>50$</div></div>
+            <div class = "work"><div class = "cost"><h1>Photo</h1>10$</div></div>
+        </div>
+        <div>
+            <h2></h2>
+        </div>
+    </div>
+        <div id = "contact" class = "contact">
+            <h3>CONTACT</h3>
+        <p>Hi, i'm a student, and my dream is enter into webDeveloper career. Now i'm studing at ITT Marconi, in Rovereto, and i try to make become my passion into my future job.</p>
+            <form action="https://formspree.io/pietro.cappelletti.mail@gmail.com"
+            method="POST">
+                <div class = "conainercontact">
+                    <textarea name="message"></textarea>
+                    <div class = "intermedio">
+                        <input type="text" name="name" value = "N A M E">
+                    </div>
+                    <div class = "intermedio2">
+                        <input type="email" name="_replyto" value = "M A I L">
+                    </div>
+                    <input type="submit" value="S E N D" class = "button">
+                </div>
+            </form>
+        </div>
+        <div id = "project">
+            <h3>EXERCISE</h3>
+            <p>Correggi gli errori presenti nel testo sottostante per visualizzare un quadrato 100px * 100px, di colore rosso con scritta di colore bianco. Questo ti servira' per vincere uno sconto sui prodotti!</p>
+            <div class = "containerproject">
+                <textarea class="codeuser" id = "codeuser"></textarea>
+                <div id = "pagina"></div>
+                <input type = "button" value = "T R Y" onclick="runHtml()">
+            </div>
+            <h4 id = "codiceSconto">CODE HERE</h4>
+        </div>
+        <script src="js/jquery-3.1.0%20.js"></script>
+        <script src = "js/scriptjquery.js"></script>
+    </body>
+</html>

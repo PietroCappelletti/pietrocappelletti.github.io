@@ -1,0 +1,129 @@
+#contact {
+  background-color: white;
+  min-height: 100%;
+    width: 100%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  text-align: center; }
+  #contact h1 {
+    color: #1bc3c0;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    padding-bottom: 30px; }
+  #contact h2 {
+    color: #1bc3c0;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px; }
+
+.conainercontact.is-showing{
+    opacity: 1;
+}
+
+.conainercontact {
+  height: 340px;
+  min-width: 600px;
+  text-align: center;
+        opacity: 0;
+    transition: all 1s ease-in-out;
+  margin: 0 auto; }
+  @media screen and (max-width: 1000px) {
+    .conainercontact {
+      min-width: 90%; } }
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+    padding: 30px;
+}
+
+#contact input {
+  margin-top: 7px;
+  border: 3px solid #a9a9a9;
+  background-color: #f8f8f8;
+  color: black;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  width: 100%;
+  color: #a9a9a9;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  padding: 4px; }
+
+#contact input:focus {
+  outline: none;
+  border: 3px solid #8d8d8d; }
+
+.intermedio {
+  height: 40px;
+  line-height: 40px;
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  text-align: center;
+  float: left; }
+
+.intermedio2 {
+  height: 40px;
+  line-height: 40px;
+  margin-top: 2px;
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  text-align: centera; }
+
+#contact textarea {
+  max-width: calc(100% - 9px);
+  min-width: calc(100% - 9px);
+  min-height: 200px;
+  max-height: 200px;
+    border: 3px solid #a9a9a9;
+}
+#contact textarea:focus {
+  outline: none;
+  border: 3px solid #8d8d8d; }
+
+#contact .button {
+  width: 100%;
+  height: 50px;
+  border: 3px solid #1D8DC1;
+  background-color: #209bd8;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px; 
+cursor: pointer;}
+
+.button:focus {
+  background-color: #1D8DC1;
+  border: 3px solid #1D8DC1; }
+
+#contact h3{
+    padding-top: 15px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #1D8DC1;
+}
+#contact p{
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serxif;
+    color: rgba(1, 1, 1, 0.7)
+}
