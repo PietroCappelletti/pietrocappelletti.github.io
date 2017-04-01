@@ -1,6 +1,5 @@
 .menu{
     height: 30px;
-    text-align: center;
     width: 100%;
     background-color: #cccccc;
     transition: all 0.5s ease-in-out;
@@ -31,4 +30,22 @@
 }
 .menu ul a:hover{
     color: rgba(1,1,1,0.4);
+}
+.menupage{
+    float:left;
+    padding-left: 20px;
+}
+.menushop{
+    float: right;
+    text-align: center;
+    margin-right: 20px;
+    height: 30px;
+}
+.menushop a{
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serxif;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
 }

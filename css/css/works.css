@@ -101,3 +101,35 @@
     opacity: 1;
     transform: translateY(0px);
 }
+.buttona{
+    background-color: #209bd8;
+    padding: 20px 100px 20px 100px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50px;
+    border: 3px solid #cccccc;
+    margin-bottom: 20px;
+}
+.buttona:hover{
+    background-color: #1D8DC1;
+}
+#shopnumber{
+    position: absolute;
+    opacity: 0;
+    height: 15px;
+    margin-left: 50px;
+    margin-top: -30px;
+    width: 15px;
+    background-color: #209bd8;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    border-radius: 50%;
+    line-height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7px;
+    color: white;
+}
+#shopnumber:hover{
+    background-color: #1D8DC1;
+}

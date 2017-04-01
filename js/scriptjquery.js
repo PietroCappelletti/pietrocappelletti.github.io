@@ -111,3 +111,66 @@ function smoothScroll (duration) {
 	    }
 	});
 }
+
+var shopnumer;
+var shopnumer1 = 0;
+var shopnumer2 = 0;
+var shopnumer3 = 0;
+var shopnumer4 = 0;
+var shopnumer5 = 0;
+
+function Shopfunction(object) {
+
+    if (object == 1)
+        {
+            if (shopnumer1 == 0)
+                {
+                    shopnumer1++;
+                }
+        }
+    else if (object == 2)
+        {
+            if (shopnumer2 == 0)
+                {
+                    shopnumer2++;
+                }
+        }
+    else if (object == 3)
+        {
+            if (shopnumer3 == 0)
+                {
+                    shopnumer3++;
+                }
+        }
+    else if (object == 4)
+        {
+            if (shopnumer4 == 0)
+                {
+                    shopnumer4++;
+                }
+        }
+    else if (object == 5)
+        {
+            if (shopnumer5 == 0)
+                {
+                    shopnumer5++;
+                }
+        }
+    
+    shopnumer = shopnumer1 + shopnumer2 + shopnumer3 + shopnumer4 + shopnumer5;
+    
+    if (shopnumer > 0)
+        {
+            document.getElementById('shopnumber').innerHTML = shopnumer;
+            document.getElementById('shopnumber').style.opacity = '1';
+        }
+    Console.log(shopnumer);
+}
+$('shop.html').ready(function() {
+    document.getElementById('SHOP1').innerHTML = shopnumer1;
+    document.getElementById('SHOP2').innerHTML = shopnumer2;
+    document.getElementById('SHOP3').innerHTML = shopnumer3;
+    document.getElementById('SHOP4').innerHTML = shopnumer4;
+    document.getElementById('SHOP5').innerHTML = shopnumer5;
+    document.getElementById('SHOP').innerHTML = shopnumer;
+});
