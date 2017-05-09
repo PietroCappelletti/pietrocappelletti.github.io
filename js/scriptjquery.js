@@ -112,7 +112,7 @@ function smoothScroll (duration) {
 	});
 }
 
-var shopnumer;
+var shopnumer = 0;
 var shopnumer1 = 0;
 var shopnumer2 = 0;
 var shopnumer3 = 0;
@@ -164,13 +164,12 @@ function Shopfunction(object) {
             document.getElementById('shopnumber').innerHTML = shopnumer;
             document.getElementById('shopnumber').style.opacity = '1';
         }
-    Console.log(shopnumer);
+    console.log(shopnumer);
 }
-$('shop.html').ready(function() {
-    document.getElementById('SHOP1').innerHTML = shopnumer1;
-    document.getElementById('SHOP2').innerHTML = shopnumer2;
-    document.getElementById('SHOP3').innerHTML = shopnumer3;
-    document.getElementById('SHOP4').innerHTML = shopnumer4;
-    document.getElementById('SHOP5').innerHTML = shopnumer5;
-    document.getElementById('SHOP').innerHTML = shopnumer;
-});
+
+function linkshop() {
+    var s = "shop.html";
+    s += "?sh1=" + shopnumer1 + "&sh2=" + shopnumer2 + "&sh3=" + shopnumer3 + "&sh4=" + shopnumer4 + "&sh5=" + shopnumer5;
+    console.log(s);
+    window.open(s, "Shop", "width=600,height=500");
+}

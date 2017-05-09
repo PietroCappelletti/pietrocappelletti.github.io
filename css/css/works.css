@@ -109,7 +109,8 @@
     font-family: 'Montserrat', sans-serif;
     border-radius: 50px;
     border: 3px solid #cccccc;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
 }
 .buttona:hover{
     background-color: #1D8DC1;
