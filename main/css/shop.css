@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(184,184,184,0.2)
+}
+.shop{
+    height: 80%;
+    width: 100%;
+    background-color: white;
+    max-width: 730px;
+}
+.containershop{
+    height: 80%;
+    width: 80%;
+    max-width: 730px;
+}
+.paybutton{
+    width: calc(70% - 10px);
+    margin-top: 10px;
+    height: 10%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #209bd8;
+    color: white;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serxif;
+        margin-bottom: 50px;
+}
+.cancelbutton{
+    width: 30%;
+    float: right;
+    height: 10%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1D8DC1;
+    color: white;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serxif;
+}
+.price{
+    max-width: 300px;
+    min-width: 300px;
+    float: left;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.paypal{
+    height: 100%;
+    width: 48%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: rgba(1,1,1,0.5);
+    font-family: 'Montserrat', sans-serxif;
+    font-size: 15px;
+    width: 20%;
+    float: right;
+    padding-right: 70px;
+}
+.price div{
+    width:100%;
+    height: auto;
+}
+.paypal .image{
+    width: 90%;
+    height: 90%;
+    background-image: url(../img/paypal.jpg);
+    background-origin: content-box;
+    background-size: cover;
+    background-position: center;
+}
+.left{
+    float: left;
+    width: auto;
+    padding: 0 0 0 60px;;
+}
+hr{
+    width: 60%;
+    margin: 5px auto;
+}
+#topbar{
+    margin-top: 5px;
+}
+@media screen and (max-width: 720px) {
+    .price{
+        width: 100%;
+        height: 50%;
+        float: none;
+        margin: 0 auto;
+    }
+    .paypal{
+        width: 100%;
+        height: 50%;
+    }
+    hr{
+        width: 90%;
+    }
+    .shop{
+    height: calc(90% - 10px);
+    width: 100%;
+        min-width: 300px;
+    background-color: white;
+}
+.containershop{
+    height: 80%;
+    width: 80%;
+     min-width: 300px;
+    margin: 50px;
+}
+}

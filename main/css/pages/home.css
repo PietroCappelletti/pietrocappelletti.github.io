@@ -123,6 +123,9 @@
     .arrow{
         display: none;
     }
+    .arrow2{
+        display: none;
+    }
     .home{
         min-height: auto;
         height: auto;

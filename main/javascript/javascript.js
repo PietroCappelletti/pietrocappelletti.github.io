@@ -65,7 +65,45 @@ $(window).scroll(function(){
     
 });
 
-function openwebsite(url)
-{
-    window.open(url);
+var sh1 = 0;
+var sh2 = 0;
+var sh3 = 0;
+var sh = 0;
+
+function shopbtn(obj){
+    if (obj == 1)
+        {
+            sh1 += 1;
+        }
+    if (obj == 2)
+        {
+            sh2 += 1;
+        }
+    if (obj == 3)
+        {
+            sh3 += 1;
+        }
+    
+    sh = sh1 + sh2 + sh3;
+    
+    document.getElementById('carrello').style.display = "block";
+    document.getElementById('carrellopointer').innerHTML = sh;
+}
+
+function goshop(){
+    var s = "shop.html";
+    s += "?sh1=" + sh1 + "&sh2=" + sh2 + "&sh3=" + sh3;
+    console.log(s);
+    window.open(s, "Shop", "width=750,height=400");
+    
+    sh1 = 0;
+    sh2 = 0;
+    sh3 = 0;
+    sh = sh1 + sh2 + sh3;
+    
+    if (sh == 0)
+        {
+            document.getElementById('carrello').style.display = "none";
+            document.getElementById('carrellopointer').innerHTML = sh;
+        }
 }

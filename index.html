@@ -1,11 +1,14 @@
 <html>
     <head>
         <link href = "main/css/main.css" type="text/css" rel = "stylesheet" />
+        <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     
     <body>
+        
+        <div id = "carrello" onclick = "goshop()">Carrello<div id = "carrellopointer">0</div></div>
         
         <!-- HEADER PAGE -->
         <div id = "header">
@@ -59,15 +62,16 @@
         
         <!-- SHOP PAGE -->
         <div id = "shop">
-            <div class = "left">
-                
-                
-            </div>
             <div class = "right">
-                <li>
-                <div id = "workelement" class = "workelement">Website</div></li><li>
-                <div id = "workelement" class = "workelement">Design</div></li><li>
-                <div id = "workelement" class = "workelement">Photo</div></li><li>
+                <h3>SHOP</h3>
+                    <h1>Hi, i'm a student, and my dream is enter into webDeveloper career. Now i'm studing at ITT Marconi, in Rovereto, and i try to make my passion my future job.</h1>
+                <ul class = "shoplist">
+                    <li>
+                        <div id = "shopelement" class = "shopelement"><p>Website 20$</p><div onclick = "shopbtn(1)" class = "btnshop">Add</div></div></li><li>
+                    <div id = "shopelement" class = "shopelement"><p>Design 10$</p><div onclick = "shopbtn(2)" class = "btnshop">Add</div></div></li><li>
+                    <div id = "shopelement" class = "shopelement"><p>Photo 20$</p><div onclick = "shopbtn(3)" class = "btnshop">Add</div></div></li>
+                </ul>
+                <div class = "bottom"></div>
             </div>
         </div>
         
