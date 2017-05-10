@@ -1,133 +1,64 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <title>Website | Pietro Cappelletti</title>
-        <link href = "css/style.css" rel = "stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href = "css/font" rel = "stylesheet">
-        <link rel = "icon" href="css/img/pw.png">
+        <link href = "main/css/main.css" type="text/css" rel = "stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     
-<body>
-
-    <!-- Here start header page -->
-    
-    <div id = "header">
-        <div class = "title"></div>
-        <div>
-            <div class = "ball back"></div>
-            <div class = "ball"></div>
-            <div class = "ball back"></div>
-            <div class = "ball"></div>
+    <body>
+        
+        <!-- HEADER PAGE -->
+        <div id = "header">
+            <div class = "title"></div>
         </div>
-    </div>
-    
-    <!-- Here start menu page -->
-    
-        <div class = "menupos"></div>
-    
+        
+        <!-- MENU PAGE -->
         <div class = "menu">
-            <div class = "menupage">
-                <ul>
-                    <li><a href = "#header" class = "homeul active">Home</a></li><li>
-                    <a href = "#works"  class = "worksul">Work</a></li><li>
-                    <a href = "#contact"  class = "contactul">Contact</a></li><li>
-                    <a href = "#project"  class = "projectul">Project</a></li>
+            <ul>
+                <li><a href = "#header" class = "homeul active">Home</a></li><li>
+                <a href = "#work"  class = "worksul">Work</a></li><li>
+                <a href = "#contact"  class = "contactul">Shop</a></li><li>
+                <a href = "#project"  class = "projectul">Contact</a></li>
+            </ul>
+        </div>
+        
+        <!-- HOME PAGE -->
+        <div class = "home">
+            <div class = "left">
+            
+            </div>
+            <div class = "right">
+                <h3>Pietro Cappelletti</h3>
+                <h1>Hi, i'm a student, and my dream is enter into webDeveloper career. Now i'm studing at ITT Marconi, in Rovereto, and i try to make my passion my future job.</h1>
+                <a href = "#work"><div class = "arrow"></div></a>
+            </div>
+        </div>
+        
+        <!-- WORK PAGE -->
+        <div id = "work">
+            <div class = "left">
+                <h3>WORK</h3>
+                <h1>Hi, i'm a student, and my dream is enter into webDeveloper career. Now i'm studing at ITT Marconi, in Rovereto, and i try to make my passion my future job.</h1>
+                <a href = "#contact"><div class = "arrow"></div></a>
+            </div>
+            <div class = "right">
+                <ul class = "worklist">
+                    <li id = "liwork0"><a href = "https://github.com/PietroCappelletti/smitewebsite.github.io"><div id = "workelement" class = "workelement">SMITE WEBSITE</div></a></li><li id = "liwork1">
+                    <a href = ""><div id = "workelement" class = "workelement"></div></a></li><li id = "liwork2">
+                    <a href = ""><div id = "workelement" class = "workelement"></div></a></li><li id = "liwork3">
+                    <a href = ""><div id = "workelement" class = "workelement"></div></a></li><li id = "liwork4">
+                    <a href = ""><div id = "workelement" class = "workelement"></div></a></li><li id = "liwork5">
+                    <a href = ""><div id = "workelement" class = "workelement"></div></a></li><li id = "liwork6">
+                    <a href = ""><div id = "workelement" class = "workelement"></div></a></li><li id = "liwork7">
+                    <a href = ""><div id = "workelement" class = "workelement"></div></a></li><li id = "liwork8">
+                    <a href = ""><div id = "workelement" class = "workelement"></div></a></li>
                 </ul>
             </div>
-            
-            <div class = "menushop">
-                <a class = "Carrel">Carello</a><div id = "shopnumber"></div>
-            </div>
-            
-        </div>
-    
-    <!-- Here start about page -->
-    
-    <div class = "about">
-        <ul class = "lenguage">
-            <li><a href = "indexita.html" >Italian</a></li><li>
-            <a class = "active">English</a></li>
-        </ul>
-        <div class = "video"><div class = "avatar"></div></div>
-        <h3>Pietro Cappelletti</h3>
-        <p class = "description">Hi, i'm a student, and my dream is enter into webDeveloper career. Now i'm studing at ITT Marconi, in Rovereto, and i try to make my passion my future job.</p>
-        <ul class = "link">
-            <li><a href = "" ><img src="css/img/icon/twitternormal.png"><br>Twitter</a></li><li>
-            <a href = ""><img src="css/img/icon/facebooknormal.png"><br>Facebook</a></li><li>
-            <a href = "https://www.instagram.com/cappellettipietro/"><img src="css/img/icon/instagramnormal.png"><br>Instagram</a></li>
-        </ul>
-    </div>
-        
-    <!-- Here start works page -->
-    
-    <div id = "works" class = "works">
-        <h3>WORKS</h3>
-        
-        <p class = "description">Hi, i'm a student, and my dream is enter into webDeveloper career. Now i'm studing at ITT Marconi, in Rovereto, and i try to make become my passion into my future job.</p>
-        
-        <div class = "containerwork">
-            <div onclick="Shopfunction('1')" class = "work"><div class = "cost"><h1>Website</h1>10$</div></div>
-            <div onclick="Shopfunction('2')" class = "work"><div class = "cost"><h1>Logo</h1>3$</div></div>
-            <div onclick="Shopfunction('3')" class = "work"><div class = "cost"><h1>Design</h1>5$</div></div>
-            <div onclick="Shopfunction('4')" class = "work"><div class = "cost"><h1>SKIFO</h1>50$</div></div>
-            <div onclick="Shopfunction('5')" class = "work"><div class = "cost"><h1>Photo</h1>10$</div></div>
         </div>
         
-        <a class = "buttona" onclick = "linkshop()">S H O P</a>
+        <!-- JAVA FILE -->
+        <script src="main/javascript/jquery-3.1.0%20.js"></script>
+        <script src = "main/javascript/javascript.js"></script>
         
-    </div>
-    
-    <!-- Here start contact page -->
-    
-    <div id = "contact" class = "contact">
-        <h3>CONTACT</h3>
-        
-        <p>Hi, i'm a student, and my dream is enter into webDeveloper career. Now i'm studing at ITT Marconi, in Rovereto, and i try to make become my passion into my future job.</p>
-        
-            <form action="https://formspree.io/pietro.cappelletti.mail@gmail.com"
-            method="POST">
-                <div class = "conainercontact">
-                    
-                    <textarea name="message"></textarea>
-                    
-                    <div class = "intermedio">
-                        <input type="text" name="name" value = "N A M E">
-                    </div>
-                    
-                    <div class = "intermedio2">
-                        <input type="email" name="_replyto" value = "M A I L">
-                    </div>
-                    
-                    <input type="submit" value="S E N D" class = "button">
-                </div>
-            </form>
-    </div>
-    
-    <!-- Here start project page -->
-    
-    <div id = "project">
-        <h3>EXERCISE</h3>
-        
-        <p>Correggi gli errori presenti nel testo sottostante per visualizzare un quadrato 100px * 100px, di colore rosso con scritta di colore bianco. Questo ti servira' per vincere uno sconto sui prodotti!</p>
-        
-        <div class = "containerproject">
-            <textarea class="codeuser" id = "codeuser"></textarea>
-            
-            <div id = "pagina"></div>
-            
-            <input type = "button" value = "T R Y" onclick="runHtml()">
-        </div>
-        
-        <h4 id = "codiceSconto">CODE HERE</h4>
-        
-    </div>
-    
-    <!-- javascript file in here -->
-    
-        <script src="js/jquery-3.1.0%20.js"></script>
-        <script src = "js/scriptjquery.js"></script>
-    
     </body>
 </html>

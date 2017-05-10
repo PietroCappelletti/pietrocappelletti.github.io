@@ -1,0 +1,191 @@
+/*general work*/
+#work{
+    min-height: 10%;
+    width: 100%;
+}
+#work .right{
+    float: right;
+    width: 65%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+    -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+    -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+    text-align: center;
+    background-color: rgba(1,1,1,0.1);
+}
+#work .left{
+    float: left;
+    width: 35%;
+    height: 100%;
+    background-color: #209bd8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+    -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+    -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+    text-align: center;
+}
+
+#work .right ul{
+    width: 100%;
+    margin: 20px 0 20px 0;
+    max-width: 900px;
+}
+
+#work .right ul li{
+    display: inline-block;
+    width: calc(100% / 3);
+    float: left;
+    height: 10px;
+    text-align: center;
+}
+#work .right #workelement{
+    height: 80%;
+    width: 80%;
+    background-color: #25b1f5;
+    margin: 5% auto;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+}
+#work .right #workelement:hover{
+    height: 86%;
+    width: 86%;
+    background-color: #25b1f5;
+    transform: translateY(-3%);
+}
+
+@media screen and (max-height: 650px) {
+    #work .left{
+        width: 100%;
+        height: auto;
+        background-color: #015077;
+    }
+    #work .right{
+        width: 100%;
+        height: auto;
+        background-color: #015077;
+    }
+    #work .right ul{
+        width: 70%;
+        margin: 20px 0 20px 0;
+    }
+    #work .left h1{
+        font-size: 5px;
+    }
+    .arrow{
+        display: none;
+    }
+}
+
+#work .left h1{
+    color: white;
+    /*font-weight: bold;*/
+    letter-spacing: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin: 0px 50px 5px 50px;
+}
+#work .left h3{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding: 50px 0 10px 0;
+}
+.worklist li a{
+    text-decoration: none;
+}
+
+.workelement{
+    opacity: 0;
+    transform: translateY(20px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+    -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+    -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+.is-showing{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+@media screen and (max-width: 900px) {
+    #work .left{
+        width: 100%;
+        height: auto;
+        background-color: #015077;
+    }
+    #work .right{
+        width: 100%;
+        height: auto;
+        background-color: #015077;
+    }
+    #work{
+        background-color: #015077;
+    }
+    #work .right ul{
+        width: 70%;
+    }
+    #work .right .workelement{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #work .left h3{
+        font-size: 8px;
+    }
+    #work .left h1{
+        font-size: 8px;
+    }
+    #work .right ul{
+        width: 90%;
+    }
+    .workelement{
+        font-size: 9px;
+    }
+    #work .right .workelement{
+        font-size: 6px;
+    }
+}
+#work .arrow{
+    top: 192%;
+    left: 17%;
+}

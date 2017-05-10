@@ -1,0 +1,15 @@
+/*import other css*/
+@import url(pages/header.css);
+@import url(pages/menu.css);
+@import url(pages/home.css);
+@import url(pages/work.css);
+
+/*main change css*/
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
