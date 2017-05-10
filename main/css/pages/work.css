@@ -1,6 +1,6 @@
 /*general work*/
 #work{
-    min-height: 10%;
+    min-height: 100%;
     width: 100%;
 }
 #work .right{
@@ -159,6 +159,8 @@
     }
     #work{
         background-color: #015077;
+        min-height: auto;
+        height: auto;
     }
     #work .right ul{
         width: 70%;

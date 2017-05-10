@@ -58,6 +58,11 @@ $(window).scroll(function(){
 
   }
     
+  if(wScroll > $('#contact').offset().top - ($(window).height())) {
+        $('.conainercontact').addClass('is-showing');
+  }
+
+    
 });
 
 function openwebsite(url)
