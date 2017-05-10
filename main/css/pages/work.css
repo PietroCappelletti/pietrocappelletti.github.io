@@ -187,7 +187,31 @@
         font-size: 6px;
     }
 }
-#work .arrow{
+.arrow2{
+    position: absolute;
+    text-align: center;
+    line-height: 60px;
     top: 192%;
     left: 17%;
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+    background-image: url(../../img/arrow.png);
+    background-position: center;
+    background-origin: content-box;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+.arrow2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+.arrow2:hover{
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
 }
