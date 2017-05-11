@@ -17,12 +17,15 @@ html, body{
     width: 100%;
     background-color: white;
     max-width: 730px;
+    border-radius: 5px;
 }
 .containershop{
     height: 80%;
     width: 80%;
     max-width: 600px;
     max-height: 350px;
+    min-height: 300px;
+    min-height: 320px;
 }
 .paybutton{
     width: calc(70% - 10px);
@@ -35,6 +38,7 @@ html, body{
     align-items: center;
     background-color: #209bd8;
     color: white;
+    border-radius: 5px;
     cursor: pointer;
     font-family: 'Montserrat', sans-serxif;
         margin-bottom: 50px;
@@ -48,6 +52,7 @@ html, body{
     flex-direction: column;
     justify-content: center;
     background-color: #1D8DC1;
+    border-radius: 5px;
     color: white;
     cursor: pointer;
     font-family: 'Montserrat', sans-serxif;
@@ -71,11 +76,12 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 h1{
     color: rgba(1,1,1,0.5);
     font-family: 'Montserrat', sans-serxif;
-    font-size: 15px;
+    font-size: 12px;
     width: 20%;
     float: right;
     padding-right: 70px;

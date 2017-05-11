@@ -31,16 +31,49 @@
     color: #209bd8;
     font-weight: bold;
     letter-spacing: 5px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     transition: color 0.3s ease-in-out;
 }
 .menu ul li a:hover{
     color: #015077;
 }
-
+.lenguage{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    color:  white;
+    
+}
+.lenguage a{
+    color:  white;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.lenguage a:hover{
+    color: skyblue;
+}
+#active{
+    color: #25b1f5;
+}
 @media screen and (max-width: 500px) {
     .menu ul li a{
         font-size: 8px;
     }
+    .lenguage a{
+        font-size: 8px;
+    }
+}
+@media screen and (max-height: 620px) {
+    .lenguage{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color:  white;
+    
+}
 }
