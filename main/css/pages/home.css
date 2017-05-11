@@ -3,10 +3,11 @@
     min-height: 70%;
     height: auto;
     width: 100%;
+    overflow: hidden;
 }
 .home .left{
     float: left;
-    width: 35%;
+    width: 45%;
     height: 70%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -23,10 +24,14 @@
       -ms-flex-align: center;
           align-items: center;
     text-align: center;
+    background-image: url(../../img/verticalblue.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .home .right{
     float: right;
-    width: 65%;
+    width: 55%;
     height: 70%;
     background-color: #209bd8;
     display: -webkit-box;
@@ -56,6 +61,25 @@
     padding: 0 50px 50px 50px;
     max-width: 700px;
 }
+h2{
+    color: white;
+    /*font-weight: bold;*/
+    letter-spacing: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding: 0 10px 10px 10px;
+    max-width: 700px;
+}
+h2 a{
+    color: white;
+    text-decoration: none;
+}
+.home .right h2:last-child{
+    margin-bottom: 20px;
+}
+colorchange{
+    color: #015077;
+}
 .home .right h3{
     color: white;
     font-weight: bold;
@@ -72,13 +96,15 @@
     background-color: white;
     margin: 30px;
 }
-
+.bottom{
+    margin-bottom: 20px;
+}
 .arrow{
     position: absolute;
     text-align: center;
     line-height: 60px;
     top: 92%;
-    left: 68%;
+    left: 73%;
     color: white;
     width: 50px;
     height: 50px;
@@ -104,12 +130,6 @@
 /*left side of the home*/
 
 @media screen and (max-width: 460px) {
-    .home .right h1{
-        font-size: 8px;
-    }
-    .home .right h3{
-        font-size: 8px;
-    }
 }
 
 @media screen and (max-width: 900px) {
@@ -127,8 +147,16 @@
         display: none;
     }
     .home{
-        min-height: auto;
         height: auto;
         width: 100%;
+    }
+    .home .right h1{
+        max-width: 350px;
+    }
+    .home .left{
+        background-image: url(../../img/orizzontaleblue.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
     }
 }

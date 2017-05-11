@@ -1,5 +1,10 @@
 $( document ).ready(function() {
     
+    var logoheight = (document.getElementById('title').offsetHeight)/2;
+    var logoheight = "-" + logoheight + "px";
+    
+    document.getElementById('title').style.marginTop = logoheight;
+    
     smoothScroll(800);
     
     var widthwork = (document.getElementById('liwork0').clientWidth) / 1.5;
@@ -12,6 +17,12 @@ $( document ).ready(function() {
     
 });
 window.onresize = function() {
+    
+    var logoheight = (document.getElementById('title').offsetHeight)/2;
+    var logoheight = "-" + logoheight + "px";
+    
+    document.getElementById('title').style.marginTop = logoheight;
+    
     var widthwork = (document.getElementById('liwork0').clientWidth) / 1.5;
     widthwork += "px";
     
@@ -58,9 +69,9 @@ $(window).scroll(function(){
 
   }
     
-  if(wScroll > $('#contact').offset().top - ($(window).height())) {
-        $('.conainercontact').addClass('is-showing');
-  }
+  //if(wScroll > $('#contact').offset().top - ($(window).height())) {
+  //      $('.conainercontact').addClass('is-showing');
+  //}
 
     
 });
@@ -68,6 +79,9 @@ $(window).scroll(function(){
 var sh1 = 0;
 var sh2 = 0;
 var sh3 = 0;
+var sh4 = 0;
+var sh5 = 0;
+var sh6 = 0;
 var sh = 0;
 
 function shopbtn(obj){
@@ -83,8 +97,20 @@ function shopbtn(obj){
         {
             sh3 += 1;
         }
+    if (obj == 4)
+        {
+            sh4 += 1;
+        }
+    if (obj == 5)
+        {
+            sh5 += 1;
+        }
+    if (obj == 6)
+        {
+            sh6 += 1;
+        }
     
-    sh = sh1 + sh2 + sh3;
+    sh = sh1 + sh2 + sh3 +sh4 + sh5 + sh6;
     
     document.getElementById('carrello').style.display = "block";
     document.getElementById('carrellopointer').innerHTML = sh;
@@ -92,14 +118,17 @@ function shopbtn(obj){
 
 function goshop(){
     var s = "shop.html";
-    s += "?sh1=" + sh1 + "&sh2=" + sh2 + "&sh3=" + sh3;
+    s += "?sh1=" + sh1 + "&sh2=" + sh2 + "&sh3=" + sh3 + "&sh4=" + sh4 + "&sh5=" + sh5 + "&sh6=" + sh6;
     console.log(s);
     window.open(s, "Shop", "width=750,height=400");
     
     sh1 = 0;
     sh2 = 0;
     sh3 = 0;
-    sh = sh1 + sh2 + sh3;
+    sh4 = 0;
+    sh5 = 0;
+    sh6 = 0;
+    sh = sh1 + sh2 + sh3 +sh4 +sh5 + sh6;
     
     if (sh == 0)
         {

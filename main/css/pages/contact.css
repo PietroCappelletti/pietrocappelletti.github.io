@@ -44,14 +44,6 @@
           align-items: center;
     text-align: center;
 }
-@media screen and (max-width: 460px) {
-    .#contact .right h1{
-        font-size: 8px;
-    }
-    #contact .right h3{
-        font-size: 8px;
-    }
-}
 
 @media screen and (max-width: 900px) {
     #contact .left{
@@ -188,12 +180,4 @@ cursor: pointer;}
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     padding: 50px 0 10px 0;
-}
-@media screen and (max-width: 460px) {
-    #contact .left h1{
-        font-size: 8px;
-    }
-    #contact .left h3{
-        font-size: 8px;
-    }
 }

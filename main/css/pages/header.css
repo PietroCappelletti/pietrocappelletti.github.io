@@ -13,10 +13,14 @@
 #header .title{
     position: absolute;
     top: 50%;
-    margin-top: -75px;
-    height: 150px;
     width: 100%;
-    background-image: url(../../img/logo2.png);
+    text-align: center;
+    /*background-image: url(../../img/logo2.png);
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+}
+#header .title img{
+    width: 100%;
+    max-width: 500px;
+    display: inline-block;
 }

@@ -1,3 +1,6 @@
+var sh6 = parseInt(getUrlVars()["sh6"]);
+var sh5 = parseInt(getUrlVars()["sh5"]);
+var sh4 = parseInt(getUrlVars()["sh4"]);
 var sh3 = parseInt(getUrlVars()["sh3"]);
 var sh2 = parseInt(getUrlVars()["sh2"]);
 var sh1 = parseInt(getUrlVars()["sh1"]);
@@ -5,8 +8,11 @@ var sh1 = parseInt(getUrlVars()["sh1"]);
 var costo1 = sh1 * 20;
 var costo2 = sh2 * 10;
 var costo3 = sh3 * 20;
+var costo4 = sh4 * 20;
+var costo5 = sh5 * 20;
+var costo6 = sh6 * 60;
 
-var tot = costo1 + costo2 + costo3;
+var tot = costo1 + costo2 + costo3 + costo4 + costo5 + costo6;
 
 function getUrlVars()
 {
@@ -49,6 +55,33 @@ if (costo3 == 0)
 else
     {
         document.getElementById('costo3').innerHTML = sh3 + "X " + costo3 + "€";
+    }
+if (costo4 == 0)
+    {
+        document.getElementById('costo4').style.display = "none";
+        document.getElementById('d4').style.display = "none";
+    }
+else
+    {
+        document.getElementById('costo4').innerHTML = sh4 + "X " + costo4 + "€";
+    }
+if (costo5 == 0)
+    {
+        document.getElementById('costo5').style.display = "none";
+        document.getElementById('d5').style.display = "none";
+    }
+else
+    {
+        document.getElementById('costo5').innerHTML = sh5 + "X " + costo5 + "€";
+    }
+if (costo6 == 0)
+    {
+        document.getElementById('costo6').style.display = "none";
+        document.getElementById('d6').style.display = "none";
+    }
+else
+    {
+        document.getElementById('costo6').innerHTML = sh6 + "X " + costo6 + "€";
     }
 if (tot == 0)
     {

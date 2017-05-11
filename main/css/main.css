@@ -5,6 +5,7 @@
 @import url(pages/work.css);
 @import url(pages/shop.css);
 @import url(pages/contact.css);
+@import url(pages/footer.css);
 
 /*main change css*/
 *{
@@ -49,11 +50,44 @@ html, body{
 }
 @media screen and (max-width: 900px) {
     #shopelement{
-        width: 80%;
-    }   
+        width: 90%;
+    }
+    #shopelement p{
+        font-size: 10px;
+    }
+    .home .right h1{
+        letter-spacing: 1px;
+    }
+    .home .right h3{
+        letter-spacing: 1px;
+    }
+    #work .left h1{
+         letter-spacing: 1px;
+    }
+    #work .left h3{
+         letter-spacing: 1px;
+    }
+    #shop .right h1{
+         letter-spacing: 1px;
+    }
+    h2{
+         letter-spacing: 1px;
+    }
+    #shop .right h3{
+         letter-spacing: 1px;
+    }
+    #contact .left h1{
+         letter-spacing: 1px;
+    }
+    #contact .left h3{
+         letter-spacing: 1px;
+    }
+    #shop .right h1{
+        max-width: 350px;
+    }
 }
 @media screen and (max-width: 400px) {
     #shopelement p{
         font-size: 8px;
-    }   
+    }
 }

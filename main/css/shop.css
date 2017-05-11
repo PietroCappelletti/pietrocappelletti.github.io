@@ -21,7 +21,8 @@ html, body{
 .containershop{
     height: 80%;
     width: 80%;
-    max-width: 730px;
+    max-width: 600px;
+    max-height: 350px;
 }
 .paybutton{
     width: calc(70% - 10px);
@@ -90,6 +91,7 @@ h1{
     background-origin: content-box;
     background-size: cover;
     background-position: center;
+    max-width: 270px;
 }
 .left{
     float: left;
@@ -103,7 +105,23 @@ hr{
 #topbar{
     margin-top: 5px;
 }
+@media screen and (max-width: 270px)
+{
+    .paypal .image{
+    width: 100%;
+    }
+    .price div{
+        width: 100%;
+    }
+    .price{
+        width: 100%;
+    }
+    .containershop{
+        width: 100%;
+    }
+}
 @media screen and (max-width: 720px) {
+    
     .price{
         width: 100%;
         height: 50%;
@@ -115,7 +133,7 @@ hr{
         height: 50%;
     }
     hr{
-        width: 90%;
+        width: 80%;
     }
     .shop{
     height: calc(90% - 10px);

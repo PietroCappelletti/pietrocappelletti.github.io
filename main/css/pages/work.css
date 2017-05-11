@@ -98,6 +98,9 @@
     .arrow2{
         display: none;
     }
+    #work colorchange{
+    color: #209bd8;
+}
 }
 
 #work .left h1{
@@ -106,7 +109,7 @@
     letter-spacing: 5px;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
-    margin: 0px 50px 5px 50px;
+    margin: 0px 50px 50px 50px;
 }
 #work .left h3{
     color: white;
@@ -179,6 +182,9 @@
 }
 
 @media screen and (max-width: 900px) {
+    #work .worklist{
+        width: 100%;
+    }
     #work .left{
         width: 100%;
         height: auto;
@@ -191,24 +197,38 @@
     }
     #work{
         background-color: #015077;
-        min-height: auto;
+        min-height: 100%;
         height: auto;
+        display: flex;
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+    -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+    -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+    text-align: center;
     }
     #work .right ul{
-        width: 70%;
+        width: 90%;
+        padding-bottom: 50px;
     }
     #work .right .workelement{
         font-size: 8px;
     }
+    #work .left h1{
+        max-width: 350px;
+    }
+    #work colorchange{
+    color: #209bd8;
+}
 }
 
 @media screen and (max-width: 460px) {
-    #work .left h3{
-        font-size: 8px;
-    }
-    #work .left h1{
-        font-size: 8px;
-    }
     #work .right ul{
         width: 90%;
     }

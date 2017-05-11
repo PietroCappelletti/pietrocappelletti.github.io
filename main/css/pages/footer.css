@@ -1,0 +1,152 @@
+.footer{
+    min-height: 50px;
+}
+.footer .left{
+    width: calc(100% / 3);
+    float: left;
+    height: 50px;      
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+.footer .center{
+    width: calc(100% / 3);
+    float: left;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;         
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+    -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+    -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+    text-align: center;
+}
+.footer .right{
+    width: calc(100% / 3);
+    float: left;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;         
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+      -ms-flex-pack: center;
+    text-align: center;
+    -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+    text-align: right;
+}
+
+.footer .center h1{
+    color: rgba(1,1,1,0.5);
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer .right p{
+    color: #25b1f5;
+    text-align: right;
+    font-size: 10px;
+    width: 100%;
+    padding-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    float: right;
+}
+.footer .left ul{
+    list-style-type: none;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+}
+.footer .left ul li{
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.footer .left ul div{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.instagram{
+    background-image: url(../../img/icon/instagramnormal.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.facebook{
+    background-image: url(../../img/icon/facebooknormal.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.twitter{
+    background-image: url(../../img/icon/twitternormal.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width: 770px)
+{
+    .footer .left{
+        width: 100%;
+        display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;         
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+    -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+    -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+    text-align: center;
+    }
+    .footer .left ul{
+    margin-left: 0px;
+        margin-top: 10px;
+    }
+    .footer .center{
+        width: 100%;
+        height: 20px;
+    }
+    .footer .right{
+        width: 100%;
+        display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;         
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+    -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+        height: 20px;
+    -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+    text-align: center;
+    }   
+    .footer .right p{
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        padding: 10px 0 10px 0;
+    }
+}
