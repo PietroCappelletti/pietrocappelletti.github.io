@@ -22,7 +22,6 @@
       -ms-flex-align: center;
           align-items: center;
     text-align: center;
-    background-color: rgba(1,1,1,0.1);
 }
 #work .left{
     float: left;
@@ -106,7 +105,7 @@
 #work .left h1{
     color: white;
     /*font-weight: bold;*/
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     margin: 0px 50px 50px 50px;
@@ -114,7 +113,7 @@
 #work .left h3{
     color: white;
     font-weight: bold;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     padding: 50px 0 10px 0;
@@ -151,18 +150,46 @@
     opacity: 1;
     transform: translateY(0px);
 }
-
+.arrowup2{
+    transform: rotate(180deg);
+    position: absolute;
+    text-align: center;
+    line-height: 30px;
+    top: 112%;
+    left: 17%;
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: -15px;
+    background-image: url(../../img/arrow.png);
+    background-position: center;
+    background-origin: content-box;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+.arrowup2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+.arrowup2:hover{
+    width: 36px;
+    height: 36px;
+    margin-top: -18px;
+    margin-left: -18px;
+}
 .arrow2{
     position: absolute;
     text-align: center;
-    line-height: 60px;
+    line-height: 30px;
     top: 192%;
     left: 17%;
     color: white;
-    width: 50px;
-    height: 50px;
-    margin-top: -25px;
-    margin-left: -25px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: -15px;
     background-image: url(../../img/arrow.png);
     background-position: center;
     background-origin: content-box;
@@ -175,10 +202,10 @@
     font-size: 40px;
 }
 .arrow2:hover{
-    width: 60px;
-    height: 60px;
-    margin-top: -30px;
-    margin-left: -30px;
+    width: 36px;
+    height: 36px;
+    margin-top: -18px;
+    margin-left: -18px;
 }
 
 @media screen and (max-width: 900px) {
@@ -238,4 +265,16 @@
     #work .right .workelement{
         font-size: 6px;
     }
+}
+.a0{
+    background-image: url(../../img/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.a1{
+    background-image: url(../../img/img2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

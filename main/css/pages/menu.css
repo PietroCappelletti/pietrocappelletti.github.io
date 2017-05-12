@@ -1,7 +1,6 @@
 .menu{
     height: 40px;
     width: 100%;
-    background-color: rgba(1,1,1,0.1);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;         

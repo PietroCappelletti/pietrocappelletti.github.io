@@ -55,7 +55,7 @@
 .home .right h1{
     color: white;
     /*font-weight: bold;*/
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     padding: 0 50px 50px 50px;
@@ -64,7 +64,7 @@
 h2{
     color: white;
     /*font-weight: bold;*/
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     padding: 0 10px 10px 10px;
@@ -102,14 +102,14 @@ colorchange{
 .arrow{
     position: absolute;
     text-align: center;
-    line-height: 60px;
+    line-height: 30px;
     top: 92%;
     left: 73%;
     color: white;
-    width: 50px;
-    height: 50px;
-    margin-top: -25px;
-    margin-left: -25px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: -15px;
     background-image: url(../../img/arrow.png);
     background-position: center;
     background-origin: content-box;
@@ -122,10 +122,10 @@ colorchange{
     font-size: 40px;
 }
 .arrow:hover{
-    width: 60px;
-    height: 60px;
-    margin-top: -30px;
-    margin-left: -30px;
+    width: 36px;
+    height: 36px;
+    margin-top: -18px;
+    margin-left: -18px;
 }
 /*left side of the home*/
 
@@ -144,6 +144,18 @@ colorchange{
         display: none;
     }
     .arrow2{
+        display: none;
+    }
+    .arrowup2{
+        display: none;
+    }
+    .arrow3{
+        display: none;
+    }
+    .arrowup3{
+        display: none;
+    }
+    .arrowup4{
         display: none;
     }
     .home{
