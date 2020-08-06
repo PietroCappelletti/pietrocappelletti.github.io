@@ -1,94 +1,9 @@
 /*import other css*/
-@import url(pages/header.css);
-@import url(pages/menu.css);
-@import url(pages/home.css);
-@import url(pages/work.css);
-@import url(pages/shop.css);
-@import url(pages/contact.css);
-@import url(pages/footer.css);
-@import url(pages/gallery.css);
+@import url(pages/index.css);
 
-/*main change css*/
-*{
-    padding: 0;
-    margin: 0;
-}
 html, body{
-    height: 100%;
     width: 100%;
-}
-#carrello{
-    display: none;
-    position: fixed;
-    z-index: 10;
-    top: 20px;
-    right: 50px;
-    background-color: rgba(1,1,1,0.3);
-    color: white;
-    padding: 5px 20px 5px 20px;
-    border-radius: 5px;
-    letter-spacing: 2px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 10px;
-    cursor: pointer;
-}
-#carrellopointer{
-    position: fixed;
-    top: 15px;
-    right: 40px;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 50%;
-    background-color: #01486b;
-    z-index: 10;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 10px;
-    color: white;
-    letter-spacing: 0;
-    padding: 0;
-}
-@media screen and (max-width: 900px) {
-    #shopelement{
-        width: 90%;
-    }
-    #shopelement p{
-        font-size: 10px;
-    }
-    .home .right h1{
-        letter-spacing: 1px;
-    }
-    .home .right h3{
-        letter-spacing: 1px;
-    }
-    #work .left h1{
-         letter-spacing: 1px;
-    }
-    #work .left h3{
-         letter-spacing: 1px;
-    }
-    #shop .right h1{
-         letter-spacing: 1px;
-    }
-    h2{
-         letter-spacing: 1px;
-    }
-    #shop .right h3{
-         letter-spacing: 1px;
-    }
-    #contact .left h1{
-         letter-spacing: 1px;
-    }
-    #contact .left h3{
-         letter-spacing: 1px;
-    }
-    #shop .right h1{
-        max-width: 350px;
-    }
-}
-@media screen and (max-width: 400px) {
-    #shopelement p{
-        font-size: 8px;
-    }
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
