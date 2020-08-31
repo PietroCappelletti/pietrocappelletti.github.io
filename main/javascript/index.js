@@ -8,7 +8,7 @@ window.addEventListener("load", function () {
     offsetHome = document.querySelector('#home').offsetTop;
     offsetExperience = document.querySelector('#experience').offsetTop;
     offsetSchool = document.querySelector('#school').offsetTop;
-    offsetGallery = document.querySelector('#gallery').offsetTop;
+    offsetGallery = document.querySelector('#photo').offsetTop;
 
     offsetHome = offsetHome * 4 / 5;
     offsetExperience = offsetExperience * 4 / 5;
