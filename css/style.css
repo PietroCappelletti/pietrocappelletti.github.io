@@ -1,0 +1,20 @@
+@font-face {
+    font-family: MomcakeBold;
+    src: url("../fonts/MomcakeBold-WyonA.otf") format("opentype");
+}
+@font-face {
+    font-family: MomcakeThin;
+    src: url("../fonts/MomcakeThin-9Y6aZ.otf") format("opentype");
+}
+:root {
+    /* automatic-generate-colors */
+    --bg-color: '';
+    --txt-color: '';
+    --main-color: '';
+    --main-dark-color: '';
+    --main-light-color: '';
+}
+*{
+    margin: 0;
+    padding: 0;
+}

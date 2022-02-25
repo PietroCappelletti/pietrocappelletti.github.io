@@ -1,0 +1,48 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.container h3{
+    font-size: 1em;
+    padding: .2rem;
+    font-family: robotoNormal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+}
+.container h1{
+    font-size: 3em;
+    padding: .2rem;
+    color: var(--main-dark-color);
+    font-family: robotoBold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.container h2{
+    font-size: 1em;
+    padding: .2rem;
+    font-family: robotoNormal;
+    letter-spacing: 2px;
+}
+.container p{
+    font-size: .8em;
+    font-family: robotoThin;
+    letter-spacing: 3px;
+}
+#fa-main-icon{
+    font-size: 4em;
+    padding: .2rem;
+}
